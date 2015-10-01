@@ -5,7 +5,7 @@
             [ring.adapter.jetty :refer [run-jetty]]))
 
 (defroutes app-routes
-  (GET "/" [] "<h1>Hi Compojure</h1>")
+  (GET "/" [] "<h1>Hello Compojure</h1>")
   (route/not-found "Not Found"))
 
 (def app
